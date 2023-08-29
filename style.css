@@ -57,7 +57,7 @@ body{
 
 
 }
-#card_btn{
+.card_btn{
     margin-top: 70px;
     padding: 12px 20px 12px 20px;
     font-size: .7em;
@@ -68,8 +68,21 @@ body{
     color: hsl(31, 77%, 52%);
 
 }
+.card_btn.one{
+    color: hsl(31, 77%, 52%);
 
-#card_btn:hover{
+}
+.card_btn.two{
+    color:hsl(184, 100%, 22%);
+
+}
+.card_btn.three{
+    color: hsl(179, 100%, 13%);
+
+}
+
+.card button:hover{
     border: 1px solid #fff;
+    color:  hsla(0, 0%, 100%, 0.75);
     background-color: transparent;
 }
